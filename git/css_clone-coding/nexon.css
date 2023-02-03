@@ -1,0 +1,405 @@
+body{
+    font-size: 12px;
+    margin: 0;
+    font-family: 'NanumGothicExtraBold';
+}
+a{
+    text-decoration: none;
+}
+.wrap{
+    max-width: 462px;
+    min-width: 360px;
+    min-height: 100%;
+    min-height: 100vh;
+    padding: 0 16px 200px;
+    margin: 0 auto;
+}
+
+.header{
+    min-width: 328px;
+    padding-top: 118px;
+    text-align: center;
+}
+
+.logo{
+    display: inline-block;
+    margin: 0 auto;
+    width: 120px;
+    height: 20px;
+}
+
+.logo>a{
+    display: block;
+    width: 120px;
+    height: 20px;
+    background: url(https://rs.nxfs.nexon.com/nxlogin/images/set_logo.svg) no-repeat 0 0;
+}
+.header-msg>p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: top;
+    border-radius: 0;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: none;
+    touch-action: manipulation;
+}
+.none{
+    display: none;
+}
+.tab{
+    height: 48px;
+    margin-top: 13px;
+}
+.tab>ul>li{
+    position: relative;
+    float: left;
+    display: block;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+    padding-left: 0px;
+}
+.tab  button{
+    width: 105px;
+}
+.button1{
+    height: 35px;
+    font-size: 13px;
+    font-weight: 1000;
+}
+.button2{
+    font-size: 13px;
+    height: 33px;
+    font-weight: 1000;
+    color: #9fa1a7;
+}
+.button3{
+    font-size: 13px;
+    height: 33px;
+    font-weight: 1000;
+    color: #9fa1a7;
+}
+.nexon-login::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    display: block;
+    width: 108px;
+    height: 34px;
+    border-bottom: 2px solid black;
+    z-index: 2;
+}
+button{
+    font: 12px malgun gothic,"sans serif";
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: top;
+    border-radius: 0;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: none;
+    touch-action: manipulation;
+}
+.tab>ul>:nth-child(2){
+    border-bottom: 1px solid gray;
+    display: block;
+    width: 105px;
+    height: 34px;
+    padding-bottom: 1px;
+    font-family: NEXON Gothic Bold;
+    color: #9fa1a7;
+    text-align: center;
+    border-bottom: 1px solid #e5e8eb;
+    transition: all .15s linear;
+    outline: 0;
+}
+.tab>ul>:nth-child(3){
+    display: block;
+    width: 105px;
+    height: 34px;
+    padding-bottom: 1px;
+    font-family: NEXON Gothic Bold;
+    color: #9fa1a7;
+    text-align: center;
+    border-bottom: 1px solid #e5e8eb;
+    transition: all .15s linear;
+    outline: 0;
+}
+.login-box p{
+    display: none;
+}
+.login-box {
+    padding-top: 60px;
+}
+.legend{
+    display: none;
+}
+.nexon-id {
+    height: 68px;
+    width: 100%;
+}
+
+input.input-id {
+    width: 94%;
+    height: 21px;
+    padding: 18px 12px;
+    border: 1px solid #e5e8eb;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    outline: 0;
+    transition: border-color .15s linear;
+}
+
+#input-password {
+    width: 94%;
+    height: 21px;
+    padding: 18px 12px;
+    border: 1px solid #e5e8eb;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    outline: 0;
+    transition: border-color .15s linear;
+}
+.check-login {
+    margin-top: 5px;
+}
+.check-box::before {
+    width: 16px;
+    height: 16px;
+    border: 1px solid black;
+}
+.check-box::after {
+    width: 18px;
+    height: 18px;
+    background: url(https://rs.nxfs.nexon.com/nxlogin/images/set_login.svg) no-repeat 0 -50px;
+    opacity: 0;
+    transition: all .15s linear;
+}
+.label {
+    position: relative;
+    display: inline-block;
+    padding: 2px 0 0 26px;
+    font-size: 12px;
+    color: #666;
+    letter-spacing: -.6px;
+    cursor: pointer;
+}
+input::placeholder{
+    color: #9fa1a7;
+    font-weight: 100;
+}
+.check-login{
+    position: relative;
+    height: 42px;
+}
+.check-box{
+    position: absolute;
+    top: auto;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px,1px,1px,1px);
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+}
+
+button.button-nexon-login {
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #17191d;
+    transition: all .15s linear;
+    cursor: pointer;
+}
+
+p.login-menu {
+    position: relative;
+    height: 40px;
+    padding-top: 2px;
+}
+p.login-menu a {
+    font-weight: 700;
+    letter-spacing: -.6px;
+    color: #737881;
+    margin-right: 8px;
+    transition: all .15s linear;
+    vertical-align: baseline;
+}
+#security {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    margin-right: 0;
+    color: #07f;
+}
+a.nexon-security::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0 2px -3px 0;
+    background: url(https://rs.nxfs.nexon.com/nxlogin/images/set_login.svg) no-repeat 0 -600px;
+}
+.login-type {
+    padding-top: 48px;
+}
+
+button.facebook {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 52px;
+    padding: 0 0 0 17px;
+    margin-top: 6px;
+    border: 1px solid #e5e8eb;
+    font-family: NEXON Gothic Bold;
+    font-size: 14px;
+    text-align: center;
+    color: #737881;
+    background-color: #fff;
+    transition: all .15s linear;
+}
+button.google {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 52px;
+    padding: 0 0 0 17px;
+    margin-top: 6px;
+    border: 1px solid #e5e8eb;
+    font-family: NEXON Gothic Bold;
+    font-size: 14px;
+    text-align: center;
+    color: #737881;
+    background-color: #fff;
+    transition: all .15s linear;
+}
+button.naver {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 52px;
+    padding: 0 0 0 17px;
+    margin-top: 6px;
+    border: 1px solid #e5e8eb;
+    font-family: NEXON Gothic Bold;
+    font-size: 14px;
+    text-align: center;
+    color: #737881;
+    background-color: #fff;
+    transition: all .15s linear;
+}
+button.apple {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 52px;
+    padding: 0 0 0 17px;
+    margin-top: 6px;
+    border: 1px solid #e5e8eb;
+    font-family: NEXON Gothic Bold;
+    font-size: 14px;
+    text-align: center;
+    color: #737881;
+    background-color: #fff;
+    transition: all .15s linear;
+}
+button.nexon {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 52px;
+    padding: 0 0 0 17px;
+    margin-top: 6px;
+    border: 1px solid #e5e8eb;
+    font-family: NEXON Gothic Bold;
+    font-size: 14px;
+    text-align: center;
+    color: #737881;
+    background-color: #fff;
+    transition: all .15s linear;
+}
+.icon{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(https://rs.nxfs.nexon.com/nxlogin/images/set_logo.svg) no-repeat 0 -50px;
+}
+
+button.facebook .icon {
+    background-position: 0 -100px;
+}
+button.google .icon {
+    background-position: 0 -150px;
+}
+button.naver .icon {
+    background-position: 0 -200px;
+}
+button.apple .icon {
+    background-position: 0 -250px;
+}
+.footer {
+    position: absolute;
+    /* bottom: 0; */
+    left: 0;
+    width: 100%;
+    min-width: 328px;
+    height: 80px;
+    padding: 164px 0 0 0;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 11px;
+    color: #9fa1a7;
+}
+.google{
+    font-weight: 800;
+}
+.naver{
+    font-weight: 800;
+}
+.apple{
+    font-weight: 800;
+}
+.facebook{
+    font-weight: 800;
+}
+
+button:hover{
+    cursor: pointer;
+    color: #17191d;
+    background-color: #9fa1a746;
+}
+
+.button2:hover{
+    cursor: pointer;
+    color: #07f;
+    background-color: white;
+}
+.button3:hover{
+    cursor: pointer;
+    color: #07f;
+    background-color: white;
+}
+
+.button-nexon-login:hover{
+    background-color: #07f;
+    color: white;
+}

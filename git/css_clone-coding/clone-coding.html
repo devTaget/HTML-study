@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nexon.css">
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css" rel="stylesheet">
+    <title>넥슨 회원로그인</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <h1 class="logo">
+                <a href=""></a>
+            </h1>
+            <div class="header-msg">
+                <p>
+                    <strong class="pc-msg none">PC방 접속중</strong>
+                    <span class="nexon-msg none">공공장소에서는 넥슨 ID/비밀번호 기록이 남지 않도록 넥슨플레이로 로그인하세요!</span>
+                    <span class="otp-msg none">넥슨 ID/비밀번호 기록이 남지 않는 일회용 로그인!</span>
+                    <span class="qr-msg none">넥슨 ID/비밀번호 기록이 남지 않는 QR 로그인!</span>
+                </p>
+            </div>
+            <div class="tab">
+                <ul>
+                    <li class="nexon-login">
+                        <button type="button" class="button1">넥슨ID 로그인</button>
+                    </li>
+                    <li class="otp-login">
+                        <button type="button" class="button2">일회용 로그인</button>
+                    </li>
+                    <li class="qr-login">
+                        <button type="button" class="button3">QR 로그인</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="contents">
+            <div class="login-sec">
+                <div class="login-box">
+                    <p>넥슨 ID 혹은 비밀번호를 잘못 입력하셨거나 등록되지 않은 넥슨 ID입니다.</p>
+                    <form action="">
+                        <legend class="legend">넥슨ID 로그인</legend>
+                        <div class="nexon-id">
+                            <input type="text" class="input-id" placeholder="넥슨ID (아이디 또는 이메일)">
+                        </div>
+                        <p class="none">넥슨ID (아이디 또는 이메일)를 입력해주세요.</p>
+                        <input type="text" id="input-password" name="#" placeholder="비밀번호">
+                        <p class="none">비밀번호를 입력해주세요.</p>
+                        <div class="check-login">
+                            <input type="checkbox" class="check-box">
+                            <label for="" class="label">
+                                로그인 상태 유지
+                            </label>
+                        </div>
+                        <div class="bt-login">
+                            <button type="button" class="button-nexon-login">넥슨ID 로그인</button>
+                        </div>
+                    </form>
+                </div>
+                <p class="login-menu">
+                    <a href="#" class="nexon-join">회원가입</a>
+                    <a href="#" class="nexon-sch-id">넥슨ID 찾기</a>
+                    <a href="#" class="nexon-sch-pass">비밀번호 찾기</a>
+                    <a href="#" class="nexon-security" id="security">
+                        보안센터
+                    </a>
+                </p>
+                <div class="login-type">
+                    <button type="button" class="facebook">
+                        <span class="icon"></span>
+                        Facebook 로그인
+                    </button>
+                    <button type="button" class="google">
+                        <span class="icon"><img src="" alt=""></span>
+                        Google 로그인
+                    </button>
+                    <button type="button" class="naver">
+                        <span class="icon"></span>
+                        Naver 로그인
+                    </button>
+                    <button type="button" class="apple">
+                        <span class="icon"></span>
+                        Apple 로그인
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="zz">© NEXON Korea Corporation All Rights Reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

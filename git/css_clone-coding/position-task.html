@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position 실습</title>
+</head>
+<style>
+    div.img{
+        position: relative;
+        background-image: url(http://koreaitacademy.com/renewal2021/img/tch/teacher007.png);
+        background-position:center;
+        background-size: 100%;
+        width: 220px;
+        height: 315px;
+        margin: 0 auto;
+    }
+    .img2>img{
+        position: absolute;
+        bottom: 148px;
+        width: 37px;
+        left: 41px;
+    }
+    .img6>img{
+    position: absolute;
+    bottom: 146px;
+    width: 32px;
+    left: 90px;
+    transform: rotate(1000deg);
+    }
+    .img3>img{
+        width: 92px;
+        position: absolute;
+        bottom: 195px;
+        left: 41px;
+    }
+    .img4>img{
+        width: 30px;
+        position: absolute;
+        bottom: 204px;
+        left: 56px;
+    }
+    .img5>img{
+        width: 30px;
+        position: absolute;
+        bottom: 204px;
+        left: 89px;
+    }
+
+</style>
+<body>
+    <div class="img">
+        <div class="img2">
+            <img src="smoke.png">
+        </div>
+        <div class="img6">
+            <img src="smoke.png">
+        </div>
+        <div class="img3">
+            <img src="KakaoTalk_20230202_102408735_01.png">
+        </div>
+        <div class="img4">
+            <img src="money.png">
+        </div>
+        <div class="img5">
+            <img src="money.png">
+        </div>
+    </div>
+    
+</body>
+</html>
